@@ -36,4 +36,4 @@ jobs:
         file: ./Dockerfile
     # List of tags
         tags: lucascdafonseca/go_ci:${{ github.ref_name }}
-        load: true
+        push: true
